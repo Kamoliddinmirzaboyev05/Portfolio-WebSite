@@ -1,0 +1,344 @@
+.homePage {
+  padding-top: 150px;
+}
+.hero .container {
+  text-align: center;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.condition {
+  padding: 5px;
+  width: fit-content;
+  margin-bottom: 15px;
+  background-color: #6469f92a;
+  border-radius: 5px;
+}
+.condition p {
+  color: #6468f9;
+  font-size: 14px;
+  background-color: transparent;
+}
+.mainText {
+  /* width: 500px; */
+  line-height: 72px;
+  font-size: 60px;
+  background: linear-gradient(90deg, #c4c6ff, #5258f7, #878bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: transparent;
+}
+.jobName {
+  font-size: 48px;
+  background: linear-gradient(45deg, #5258f7, #5258f7, #878bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.litlleInfo {
+  font-size: 22px;
+  color: #fcfcfa;
+  padding-top: 15px;
+}
+.heroBtns {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.heroBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #5258f7b5;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.heroBtn i {
+  background-color: transparent;
+}
+.contactBtn {
+  background-color: #1b1b1d;
+  border: 1px solid #222224;
+}
+
+/* styling main section */
+
+main {
+  padding: 80px 0;
+}
+.aboutSection {
+  background-color: #121212;
+  padding: 80px 0;
+}
+.aboutSection .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fafafa;
+}
+.aboutSection .container .condition {
+  text-align: center;
+  width: fit-content;
+}
+.sectionTitle {
+  font-size: 55px;
+  background: linear-gradient(45deg, #5258f7, #5258f7, #878bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 30px;
+}
+.infoText {
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+  padding-bottom: 10px;
+  width: 1000px;
+  color: #ccc;
+}
+
+/* Styling skillsection */
+
+.skillsSection {
+  padding: 80px 0;
+  padding-top: 120px;
+  border-bottom: #363638 1px solid;
+  padding-bottom: 120px;
+}
+.skillsSection .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: #222224; */
+}
+.skillsBlock {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.skillBox {
+  padding: 20px 30px;
+  border-radius: 15px;
+  color: #fafafa;
+  width: 300px;
+  border: 1px solid #363638;
+  display: flex;
+  background-color: #161617;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.skillBox:hover {
+  background-color: #222224;
+}
+.skillBox:hover .skillLogo img {
+  transform: scale(1.1);
+}
+.skillLogo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  transition: all 0.5s ease;
+  margin-bottom: 20px;
+}
+.skillBox h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.skillBox p {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+/* styling portfolio section */
+
+.portfolioSection {
+  padding: 80px 0;
+  border-bottom: #2e2e2e 1px solid;
+}
+.portfolioSection .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.projectInfo {
+  color: #9d9d9f;
+  padding-bottom: 30px;
+}
+.MuiButtonBase-root {
+  color: #5258f7 !important;
+}
+.porfolioBlock {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.portfolioBox {
+  width: 400px;
+  border-radius: 15px;
+  color: #9d9d9f;
+  background-color: #161617;
+  border: 0.5px solid #2e2e2f;
+}
+.projectData {
+  padding: 15px;
+}
+.projectName {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fafafa;
+  padding-bottom: 10px;
+}
+.projectInfo {
+  font-size: 15px;
+  font-weight: 400;
+  color: #9d9d9f;
+  padding-bottom: 10px;
+}
+.portfolioBox .projectImg {
+  overflow: hidden;
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.portfolioBox .projectImg img {
+  width: 400px;
+  height: 200px;
+  transition: all 0.5s ease;
+}
+.portfolioBox .projectImg img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+.technologies {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+.techItem {
+  padding: 2px 5px;
+  background-color: #6468f9;
+  color: white;
+  border: 0.5px solid #2e2e2f;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.source {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.github,
+.liveLink {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+.github:hover,
+.liveLink:hover {
+  color: #5258f7;
+}
+.viewBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.viewBtn button {
+  padding: 10px 25px;
+  background-color: #141416;
+  border: 0.5px solid #3d3d3f;
+  border-radius: 6px;
+  color: #5258f7;
+}
+
+/* styling contactSection  */
+.contactSection {
+  border-top: 1px solid #161617;
+  padding: 120px 0;
+}
+.contactSection .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactForm {
+  width: 800px;
+  border: 1px solid #2e2e2f;
+  border-radius: 15px;
+  padding: 40px 25px;
+  background-color: #161617;
+}
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.rowItem {
+  width: 350px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.rowItem label,
+.fulrowItem label {
+  color: #fafafa;
+  padding-bottom: 5px;
+}
+.rowItem input,
+.fulrowItem input {
+  width: 100%;
+  border: #2e2e2f 0.5px solid;
+  background-color: #202021;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+.fulrowItem {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.fulrowItem textarea {
+  width: 100%;
+  border: #2e2e2f 0.5px solid;
+  background-color: #202021;
+  padding: 10px 15px;
+  border-radius: 6px;
+  height: 150px;
+}
+.sendBtn {
+  width: 100%;
+  border: #2e2e2f 0.5px solid;
+  background-color: #6468F9;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 6px;
+}

@@ -1,0 +1,126 @@
+nav {
+  border-bottom: 1px solid #222224;
+  padding: 25px 0;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 2px gray;
+  transition: all 0.3s ease-in-out;
+  scroll-behavior: smooth;
+}
+:root {
+  --text-color: #6468f9;
+}
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fafafa;
+}
+.logo {
+  cursor: pointer;
+}
+.logo h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+}
+.logo h2 span {
+  color: var(--text-color);
+}
+a {
+  color: #fafafa;
+  font-size: 18px;
+  text-decoration: none;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.navBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.navBtn {
+  border: none;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  position: relative;
+  background-color: transparent;
+}
+.navBtn .socialName {
+  position: absolute;
+  bottom: 0px;
+  opacity: 0;
+  left: -15px;
+  color: #7f83ff;
+  font-size: 16px;
+  transition: all 0.5s ease;
+  transform: scale(0);
+}
+.navBtn:hover .socialName {
+  bottom: -30px;
+  opacity: 1;
+  transform: scale(1);
+}
+.navBtn:hover {
+  color: #6468f9;
+  background-color: #222224;
+}
+.navBtn:hover svg {
+  color: #6468f9;
+}
+.navBtn svg {
+  color: #fafafa;
+  font-size: 20px;
+}
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #3D41B2;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); */
+  z-index: 10;
+}
+
+.tooltip-wrapper:hover .tooltip {
+  opacity: 1;
+  transform: translateX(-50%) translateY(50px);
+}
+.tooltip-arrow {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  z-index: 999999;
+  transform: translateX(-50%) rotate(180deg);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #3D41B2;
+}
