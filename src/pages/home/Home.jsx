@@ -62,28 +62,28 @@ function Home() {
             <div className="skillsBlock">
               <div className="skillBox">
                 <div className="skillLogo">
-                  <img src="/public/html.svg" alt="" />
+                  <img src="/html.svg" alt="" />
                 </div>
                 <h2>Foundation</h2>
                 <p>Using HTML5 and CSS3 and create magic web site design</p>
               </div>
               <div className="skillBox">
                 <div className="skillLogo">
-                  <img src="/public/tailwind-css.svg" alt="" />
+                  <img src="/tailwind-css.svg" alt="" />
                 </div>
                 <h2>Tailwind - CSS</h2>
                 <p>Using HTML5 and CSS3 and create magic web site design</p>
               </div>
               <div className="skillBox">
                 <div className="skillLogo">
-                  <img src="/public/javascript-js.svg" alt="" />
+                  <img src="/javascript-js.svg" alt="" />
                 </div>
                 <h2>JavaScript</h2>
                 <p>Using HTML5 and CSS3 and create magic web site design</p>
               </div>
               <div className="skillBox">
                 <div className="skillLogo">
-                  <img src="/public/react.svg" alt="" />
+                  <img src="/react.svg" alt="" />
                 </div>
                 <h2>React - JS</h2>
                 <p>Using HTML5 and CSS3 and create magic web site design</p>
@@ -110,7 +110,7 @@ function Home() {
             <div className="porfolioBlock">
               <div className="portfolioBox">
                 <div className="projectImg">
-                  <img src="/public/mixel.png" alt="" />
+                  <img src="/mixel.png" alt="" />
                 </div>
                 <div className="projectData">
                   <h2 className="projectName">Mixel E-Commerse </h2>
@@ -143,7 +143,7 @@ function Home() {
               </div>
               <div className="portfolioBox">
                 <div className="projectImg">
-                  <img src="/public/mixel.png" alt="" />
+                  <img src="/mixel.png" alt="" />
                 </div>
                 <div className="projectData">
                   <h2 className="projectName">Mixel E-Commerse </h2>
@@ -176,7 +176,7 @@ function Home() {
               </div>
               <div className="portfolioBox">
                 <div className="projectImg">
-                  <img src="/public/mixel.png" alt="" />
+                  <img src="/mixel.png" alt="" />
                 </div>
                 <div className="projectData">
                   <h2 className="projectName">Mixel E-Commerse </h2>
