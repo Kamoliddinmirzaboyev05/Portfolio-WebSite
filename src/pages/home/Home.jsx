@@ -4,6 +4,285 @@ import { Tab, Tabs } from "@mui/material";
 import { LuExternalLink, LuGithub } from "react-icons/lu";
 
 function Home() {
+  const portfolioDB = [
+    {
+      id: 1,
+      category: "featured",
+      name: "Mixel E-Commerse",
+      img: "/mixel.png",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "React",
+        },
+        {
+          id: 2,
+          name: "Restful API",
+        },
+        {
+          id: 3,
+          name: "SwiperJs",
+        },
+      ],
+      github: "https://github.com/Kamoliddinmirzaboyev05/Mixel-E-Commerse-",
+      live: "https://mixel-os.netlify.app/",
+    },
+    {
+      id: 2,
+      category: "featured",
+      name: "Exclusive E-Commerse",
+      img: "/exclusive.jpg",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "React",
+        },
+        {
+          id: 2,
+          name: "Restful API",
+        },
+        {
+          id: 3,
+          name: "SwiperJs",
+        },
+      ],
+      github: "https://github.com/Kamoliddinmirzaboyev05/Exclusive-E-Commerse-Site",
+      live: "https://exclusive-ecommerse-site.netlify.app/",
+    },
+    {
+      id: 3,
+      category: "featured",
+      name: "Discover E-Commerse",
+      img: "/discover.jpg",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "JavaScript",
+        },
+        {
+          id: 2,
+          name: "Fetch API",
+        },
+        {
+          id: 3,
+          name: "Local Storage",
+        },
+      ],
+      github: "https://github.com/Kamoliddinmirzaboyev05/eCommerse-Big-JS-Project",
+      live: "https://ecommerse-mkm.netlify.app/",
+    },
+    {
+      id: 4,
+      category: "api",
+      name: "Image Generator",
+      img: "/imagegenerator.jpg",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "JavaScript",
+        },
+        {
+          id: 2,
+          name: "Unsplash API",
+        },
+        {
+          id: 3,
+          name: "Local Storage",
+        },
+      ],
+      github: "",
+      live: "",
+    },
+    {
+      id: 5,
+      category: "api",
+      name: "Taqvim",
+      img: "/taqvim.jpg",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "HTML & CSS",
+        },
+        {
+          id: 2,
+          name: "JavaScript",
+        },
+        {
+          id: 3,
+          name: "Fetch API",
+        },
+      ],
+      github: "https://github.com/Kamoliddinmirzaboyev05/Namoz-Vaqtlari-APP",
+      live: "https://taqvim-mkm.netlify.app/",
+    },
+    {
+      id: 6,
+      category: "api",
+      name: "DevFinder",
+      img: "/devfinder.jpg",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "React",
+        },
+        {
+          id: 2,
+          name: "Restful API",
+        },
+        {
+          id: 3,
+          name: "SwiperJs",
+        },
+      ],
+      github: "",
+      live: "https://devfinder-github-mkm.netlify.app/",
+    },
+    {
+      id: 1,
+      category: "featured",
+      name: "Mixel E-Commerse",
+      img: "/mixel.png",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "React",
+        },
+        {
+          id: 2,
+          name: "Restful API",
+        },
+        {
+          id: 3,
+          name: "SwiperJs",
+        },
+      ],
+      github: "",
+      live: "",
+    },
+    {
+      id: 1,
+      category: "featured",
+      name: "Mixel E-Commerse",
+      img: "/mixel.png",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "React",
+        },
+        {
+          id: 2,
+          name: "Restful API",
+        },
+        {
+          id: 3,
+          name: "SwiperJs",
+        },
+      ],
+      github: "",
+      live: "",
+    },
+    {
+      id: 1,
+      category: "featured",
+      name: "Mixel E-Commerse",
+      img: "/mixel.png",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "React",
+        },
+        {
+          id: 2,
+          name: "Restful API",
+        },
+        {
+          id: 3,
+          name: "SwiperJs",
+        },
+      ],
+      github: "",
+      live: "",
+    },
+    {
+      id: 1,
+      category: "featured",
+      name: "Mixel E-Commerse",
+      img: "/mixel.png",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "React",
+        },
+        {
+          id: 2,
+          name: "Restful API",
+        },
+        {
+          id: 3,
+          name: "SwiperJs",
+        },
+      ],
+      github: "",
+      live: "",
+    },
+    {
+      id: 1,
+      category: "featured",
+      name: "Mixel E-Commerse",
+      img: "/mixel.png",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "React",
+        },
+        {
+          id: 2,
+          name: "Restful API",
+        },
+        {
+          id: 3,
+          name: "SwiperJs",
+        },
+      ],
+      github: "",
+      live: "",
+    },
+    {
+      id: 1,
+      category: "featured",
+      name: "Mixel E-Commerse",
+      img: "/mixel.png",
+      info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
+      tech: [
+        {
+          id: 1,
+          name: "React",
+        },
+        {
+          id: 2,
+          name: "Restful API",
+        },
+        {
+          id: 3,
+          name: "SwiperJs",
+        },
+      ],
+      github: "",
+      live: "",
+    },
+  ];
+
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -19,9 +298,8 @@ function Home() {
           <h2 className="mainText">Hi I'm Kamoliddin Mirzaboyev</h2>
           <h3 className="jobName">Front - End Developer</h3>
           <p className="litlleInfo">
-            I build exceptional digital experiences that are fast, accessible,
-            and visually appealing. Specializing in modern web technologies and
-            frameworks.
+            Crafting fast, beautiful, and user-first web experiences. Turning
+            ideas into responsive, high-performing digital products
           </p>
           <div className="heroBtns">
             <button className="heroBtn">
@@ -34,7 +312,7 @@ function Home() {
         </div>
       </div>
       <main id="aboutSection">
-        <section  className="aboutSection">
+        <section className="aboutSection">
           <div className="container">
             <div className="condition">
               <p>My way</p>

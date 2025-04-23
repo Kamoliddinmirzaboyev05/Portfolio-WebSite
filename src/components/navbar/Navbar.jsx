@@ -35,7 +35,11 @@ function Navbar() {
             </a>
           </div>
           <div className="navBtns">
-            <a href="https://github.com/Kamoliddinmirzaboyev05" target="blank" className="tooltip-wrapper">
+            <a
+              href="https://github.com/Kamoliddinmirzaboyev05"
+              target="blank"
+              className="tooltip-wrapper"
+            >
               <button className="navBtn">
                 <LuGithub />
                 <div class="tooltip">
@@ -43,7 +47,11 @@ function Navbar() {
                 </div>
               </button>
             </a>
-            <a href="https://t.me/MKPortfolio_Codial" target="blank" className="tooltip-wrapper">
+            <a
+              href="https://t.me/MKPortfolio_Codial"
+              target="blank"
+              className="tooltip-wrapper"
+            >
               <button className="navBtn">
                 <FaBriefcase />
                 <div class="tooltip">
@@ -51,7 +59,11 @@ function Navbar() {
                 </div>
               </button>
             </a>
-            <a href="" className="tooltip-wrapper">
+            <a
+              href="https://www.linkedin.com/in/kamoliddin-mirzaboyev-8226a4329/"
+              target="blank"
+              className="tooltip-wrapper"
+            >
               <button className="navBtn">
                 <FiLinkedin />
                 <div class="tooltip">
@@ -59,14 +71,14 @@ function Navbar() {
                 </div>
               </button>
             </a>
-            <div className="tooltip-wrapper">
+            <a href="https://t.me/Kamoliddin_Mirzaboyev" className="tooltip-wrapper">
               <button className="navBtn">
                 <FaTelegramPlane />
                 <div class="tooltip">
                   Telegram <span class="tooltip-arrow"></span>
                 </div>
               </button>
-            </div>
+            </a>
           </div>
         </div>
       </nav>
