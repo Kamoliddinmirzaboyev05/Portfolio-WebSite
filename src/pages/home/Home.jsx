@@ -48,7 +48,8 @@ function Home() {
           name: "SwiperJs",
         },
       ],
-      github: "https://github.com/Kamoliddinmirzaboyev05/Exclusive-E-Commerse-Site",
+      github:
+        "https://github.com/Kamoliddinmirzaboyev05/Exclusive-E-Commerse-Site",
       live: "https://exclusive-ecommerse-site.netlify.app/",
     },
     {
@@ -71,7 +72,8 @@ function Home() {
           name: "Local Storage",
         },
       ],
-      github: "https://github.com/Kamoliddinmirzaboyev05/eCommerse-Big-JS-Project",
+      github:
+        "https://github.com/Kamoliddinmirzaboyev05/eCommerse-Big-JS-Project",
       live: "https://ecommerse-mkm.netlify.app/",
     },
     {
@@ -144,10 +146,10 @@ function Home() {
       live: "https://devfinder-github-mkm.netlify.app/",
     },
     {
-      id: 1,
-      category: "featured",
-      name: "Mixel E-Commerse",
-      img: "/mixel.png",
+      id: 7,
+      category: "react",
+      name: "Greenshop",
+      img: "/greenshop.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
         {
@@ -156,21 +158,21 @@ function Home() {
         },
         {
           id: 2,
-          name: "Restful API",
+          name: "Local Storage",
         },
         {
           id: 3,
           name: "SwiperJs",
         },
       ],
-      github: "",
-      live: "",
+      github: "https://github.com/Kamoliddinmirzaboyev05/GreenShop",
+      live: "https://greenshop-mkm.netlify.app/",
     },
     {
-      id: 1,
-      category: "featured",
-      name: "Mixel E-Commerse",
-      img: "/mixel.png",
+      id: 8,
+      category: "react",
+      name: "Finsweet",
+      img: "/finsweet.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
         {
@@ -179,21 +181,17 @@ function Home() {
         },
         {
           id: 2,
-          name: "Restful API",
-        },
-        {
-          id: 3,
-          name: "SwiperJs",
+          name: "Multi Page",
         },
       ],
-      github: "",
-      live: "",
+      github: "https://github.com/Kamoliddinmirzaboyev05/Finsweet-React.git",
+      live: "https://finsweet-react-mkm.vercel.app/",
     },
     {
-      id: 1,
-      category: "featured",
-      name: "Mixel E-Commerse",
-      img: "/mixel.png",
+      id: 9,
+      category: "react",
+      name: "Planto",
+      img: "/planto.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
         {
@@ -202,44 +200,44 @@ function Home() {
         },
         {
           id: 2,
-          name: "Restful API",
+          name: "Drop Shadow",
         },
         {
           id: 3,
-          name: "SwiperJs",
+          name: "Landing Page",
         },
       ],
-      github: "",
-      live: "",
+      github: "https://github.com/Kamoliddinmirzaboyev05/Planto-First-React-",
+      live: "https://planto-firt-react-mkm.netlify.app/",
     },
     {
-      id: 1,
-      category: "featured",
-      name: "Mixel E-Commerse",
-      img: "/mixel.png",
+      id: 10,
+      category: "static",
+      name: "Rolex",
+      img: "/rolex.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
         {
           id: 1,
-          name: "React",
+          name: "HTML & CSS",
         },
         {
           id: 2,
-          name: "Restful API",
+          name: "JavaScript",
         },
         {
           id: 3,
-          name: "SwiperJs",
+          name: "Dark - Light Mode", 
         },
       ],
-      github: "",
-      live: "",
+      github: "https://github.com/Kamoliddinmirzaboyev05/Rolex",
+      live: "https://rolex-mkm.netlify.app/",
     },
     {
-      id: 1,
-      category: "featured",
+      id: 11,
+      category: "static",
       name: "Mixel E-Commerse",
-      img: "/mixel.png",
+      img: "/contact.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
         {
@@ -283,7 +281,7 @@ function Home() {
     },
   ];
 
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState("featured");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -380,111 +378,65 @@ function Home() {
               front-end development.
             </p>
             <Tabs value={value} onChange={handleChange} centered>
-              <Tab label="Featured" />
-              <Tab label="Static" />
-              <Tab label="API Integrated" />
-              <Tab label="React Based" />
+              <Tab label="Featured" value={"featured"} />
+              <Tab label="Static" value={"static"} />
+              <Tab label="API Integrated" value={"api"} />
+              <Tab label="Responsive Design" value={"responsive"} />
+              <Tab label="React Based" value={"react"} />
             </Tabs>
             <div className="porfolioBlock">
-              <div className="portfolioBox">
-                <div className="projectImg">
-                  <img src="/mixel.png" alt="" />
-                </div>
-                <div className="projectData">
-                  <h2 className="projectName">Mixel E-Commerse </h2>
-                  <p className="projectInfo">
-                    A comprehensive admin dashboard for managing online stores
-                    with real-time analytics.
-                  </p>
-                  <div className="technologies">
-                    <div className="techItem">
-                      <p>React</p>
+              {portfolioDB.map((item) => {
+                if (item.category === value) {
+                  return (
+                    <div className="portfolioBox" key={item.id}>
+                      <div className="projectImg">
+                        <img src={item.img} alt="" />
+                      </div>
+                      <div className="projectData">
+                        <h2 className="projectName">{item.name}</h2>
+                        <p className="projectInfo">{item.info}</p>
+                        <div className="technologies">
+                          {item.tech.map((tech) => {
+                            return (
+                              <div className="techItem" key={tech.id}>
+                                <p>{tech.name}</p>
+                              </div>
+                            );
+                          })}
+                        </div>
+                        <div className="source">
+                          {item.github && (
+                            <a
+                              href={item.github}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <div className="github">
+                                <LuGithub />
+                                <p>GitHub</p>
+                              </div>
+                            </a>
+                          )}
+                          {item.live && (
+                            <a
+                              href={item.live}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <div className="liveLink">
+                                <LuExternalLink />
+                                <p>Live Demo</p>
+                              </div>
+                            </a>
+                          )}
+                        </div>
+                      </div>
                     </div>
-                    <div className="techItem">
-                      <p>RestFul API</p>
-                    </div>
-                    <div className="techItem">
-                      <p>Swiper</p>
-                    </div>
-                  </div>
-                  <div className="source">
-                    <div className="github">
-                      <LuGithub />
-                      <p>GitHub</p>
-                    </div>
-                    <div className="liveLink">
-                      <LuExternalLink />
-                      <p>Live Demo</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="portfolioBox">
-                <div className="projectImg">
-                  <img src="/mixel.png" alt="" />
-                </div>
-                <div className="projectData">
-                  <h2 className="projectName">Mixel E-Commerse </h2>
-                  <p className="projectInfo">
-                    A comprehensive admin dashboard for managing online stores
-                    with real-time analytics.
-                  </p>
-                  <div className="technologies">
-                    <div className="techItem">
-                      <p>React</p>
-                    </div>
-                    <div className="techItem">
-                      <p>RestFul API</p>
-                    </div>
-                    <div className="techItem">
-                      <p>Swiper</p>
-                    </div>
-                  </div>
-                  <div className="source">
-                    <div className="github">
-                      <LuGithub />
-                      <p>GitHub</p>
-                    </div>
-                    <div className="liveLink">
-                      <LuExternalLink />
-                      <p>Live Demo</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="portfolioBox">
-                <div className="projectImg">
-                  <img src="/mixel.png" alt="" />
-                </div>
-                <div className="projectData">
-                  <h2 className="projectName">Mixel E-Commerse </h2>
-                  <p className="projectInfo">
-                    A comprehensive admin dashboard for managing online stores
-                    with real-time analytics.
-                  </p>
-                  <div className="technologies">
-                    <div className="techItem">
-                      <p>React</p>
-                    </div>
-                    <div className="techItem">
-                      <p>RestFul API</p>
-                    </div>
-                    <div className="techItem">
-                      <p>Swiper</p>
-                    </div>
-                  </div>
-                  <div className="source">
-                    <div className="github">
-                      <LuGithub />
-                      <p>GitHub</p>
-                    </div>
-                    <div className="liveLink">
-                      <LuExternalLink />
-                      <p>Live Demo</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                  );
+                } else {
+                  return;
+                }
+              })}
             </div>
             <div className="viewBtn">
               <button>
