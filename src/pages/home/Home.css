@@ -335,10 +335,90 @@ main {
 .sendBtn {
   width: 100%;
   border: #2e2e2f 0.5px solid;
-  background-color: #6468F9;
+  background-color: #6468f9;
   color: white;
   font-size: 18px;
   font-weight: 700;
   padding: 10px 15px;
   border-radius: 6px;
+}
+@media (max-width: 960px) {
+  .mainText {
+    /* width: 500px; */
+    line-height: 65px;
+    font-size: 55px;
+  }
+  .jobName {
+    font-size: 44px;
+  }
+  .infoText {
+    font-size: 18px;
+    max-width: 750px;
+  }
+  .skillBox {
+    padding: 15px 20px;
+    width: 200px;
+  }
+  .skillLogo img {
+    width: 60px;
+    height: 60px;
+  }
+  .skillBox h2 {
+    font-size: 16px;
+  }
+  .skillBox p {
+    font-size: 12px;
+  }
+  .portfolioBlock {
+    gap: 15px;
+  }
+  .portfolioBox {
+    width: 250px;
+  }
+  @media (max-width: 560px) {
+    .hero .container {
+      padding: 0 20px;
+    }
+    .mainText {
+      font-size: 26px;
+      line-height: 50px;
+    }
+    .jobName {
+      font-size: 22px;
+    }
+    .litlleInfo {
+      font-size: 16px;
+    }
+    .heroBtns {
+      gap: 10px;
+    }
+    .heroBtn {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+
+    .portfolioBlock {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .portfolioBox {
+      width: 100%;
+    }
+    .portfolioBox .projectImg img {
+      width: 100%;
+      height: 200px;
+    }
+    .infoText {
+      font-size: 16px;
+      text-align: center;
+      line-height: 24px;
+      padding-bottom: 10px;
+      max-width: 400px;
+      color: #ccc;
+    }
+    .contactForm {
+      max-width: 400px;
+    }
+  }
 }

@@ -96,7 +96,7 @@ a {
   bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #3D41B2;
+  background-color: #3d41b2;
   color: white;
   padding: 5px 10px;
   border-radius: 8px;
@@ -122,5 +122,56 @@ a {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #3D41B2;
+  border-top: 10px solid #3d41b2;
+}
+@media (max-width: 960px) {
+  nav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .navLinks {
+    gap: 20px !important;
+  }
+  .navBtns {
+    gap: 10px !important;
+  }
+}
+@media (max-width: 780px) {
+  nav {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .navLinks {
+    /* gap: 20px !important; */
+    display: none !important;
+  }
+  .navBtns {
+    gap: 15px !important;
+  }
+}
+@media (max-width: 560px) {
+  nav {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .navLinks {
+    /* gap: 20px !important; */
+    display: none !important;
+  }
+  .navBtns {
+    gap: 15px !important;
+    font-size: 16px !important;
+  }
+  .navBtn {
+    width: 20px;
+    height: 20px;
+  }
+  .navBtn svg{
+    font-size: 16px;
+  }
+  .logo h2 {
+    font-size: 20px !important;
+    font-weight: 600;
+    color: white;
+  }
 }
