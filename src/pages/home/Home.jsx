@@ -227,7 +227,7 @@ function Home() {
         },
         {
           id: 3,
-          name: "Dark - Light Mode", 
+          name: "Dark - Light Mode",
         },
       ],
       github: "https://github.com/Kamoliddinmirzaboyev05/Rolex",
@@ -236,48 +236,44 @@ function Home() {
     {
       id: 11,
       category: "static",
-      name: "Mixel E-Commerse",
+      name: "Contact Mini App",
       img: "/contact.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
         {
           id: 1,
-          name: "React",
+          name: "HTML & CSS",
         },
         {
           id: 2,
-          name: "Restful API",
+          name: "JavaScript",
         },
         {
           id: 3,
-          name: "SwiperJs",
+          name: "Local Storage",
         },
       ],
       github: "",
       live: "",
     },
     {
-      id: 1,
-      category: "featured",
-      name: "Mixel E-Commerse",
-      img: "/mixel.png",
+      id: 12,
+      category: "static",
+      name: "Digital Agency",
+      img: "/todo.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
         {
           id: 1,
-          name: "React",
+          name: "HTML & CSS",
         },
         {
           id: 2,
-          name: "Restful API",
-        },
-        {
-          id: 3,
-          name: "SwiperJs",
+          name: "CSS Tools",
         },
       ],
-      github: "",
-      live: "",
+      github: "https://github.com/Kamoliddinmirzaboyev05/To-Do-App",
+      live: "https://todolist-mkm.netlify.app/",
     },
   ];
 
