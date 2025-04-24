@@ -75,3 +75,20 @@ a {
   padding-top: 10px;
   color: #818181;
 }
+@media (max-width: 768px) {
+ footer .container {
+    flex-direction: column;
+    align-items: center;
+  }
+ footer .navLinks {
+    margin-top: 10px;
+  }
+ footer .navBtns {
+    margin-top: 10px;
+  }
+  footer .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -413,24 +413,46 @@ main {
     }
     .infoText {
       font-size: 16px;
+      padding: 0px 20px;
       text-align: center;
       line-height: 24px;
       padding-bottom: 10px;
       max-width: 400px;
       color: #ccc;
     }
+    .skillsSection {
+      padding: 80px 0;
+    }
+    .portfolioBox {
+      width: 100%;
+      margin: 0px 20px;
+    }
+    .skillBox {
+      width: 180px;
+    }
+    .skillBox p {
+      display: none;
+    }
     .contactForm {
       max-width: 400px;
     }
-    .MuiTabs-list{
+    .MuiTabs-list {
       gap: 5px;
       flex-wrap: wrap;
     }
     .MuiTabs-list button {
       font-size: 12px;
     }
-    .MuiTabs-list button:nth-child(2), .MuiTabs-list button:nth-child(3){
+    .MuiTabs-list button:nth-child(2),
+    .MuiTabs-list button:nth-child(3) {
       display: none !important;
+    }
+    .row {
+      flex-direction: column;
+    }
+    .rowItem {
+      width: 100%;
+      padding-bottom: 30px;
     }
   }
 }
