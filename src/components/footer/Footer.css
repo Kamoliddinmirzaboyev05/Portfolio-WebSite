@@ -85,6 +85,7 @@ a {
   }
  footer .navBtns {
     margin-top: 10px;
+    padding-bottom: 20px;
   }
   footer .logo{
     display: flex;
