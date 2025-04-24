@@ -396,7 +396,9 @@ main {
       padding: 10px 15px;
       font-size: 14px;
     }
-
+    .sectionTitle {
+      font-size: 32px;
+    }
     .portfolioBlock {
       flex-direction: column;
       align-items: center;
@@ -419,6 +421,16 @@ main {
     }
     .contactForm {
       max-width: 400px;
+    }
+    .MuiTabs-list{
+      gap: 5px;
+      flex-wrap: wrap;
+    }
+    .MuiTabs-list button {
+      font-size: 12px;
+    }
+    .MuiTabs-list button:nth-child(2), .MuiTabs-list button:nth-child(3){
+      display: none !important;
     }
   }
 }
