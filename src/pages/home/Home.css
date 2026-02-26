@@ -464,3 +464,209 @@ main {
     }
   }
 }
+
+/* Additional Professional Animations */
+.heroBtn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.heroBtn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.heroBtn:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.heroBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(82, 88, 247, 0.3);
+}
+
+.contactBtn:hover {
+  border-color: #6468f9;
+  box-shadow: 0 10px 25px rgba(100, 104, 249, 0.2);
+}
+
+/* Gradient Animation */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.mainText {
+  background-size: 200% 200%;
+  animation: gradientShift 5s ease infinite;
+}
+
+.jobName {
+  background-size: 200% 200%;
+  animation: gradientShift 6s ease infinite;
+}
+
+/* Floating Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.condition {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Skill Box Enhanced Hover */
+.skillBox {
+  position: relative;
+  overflow: hidden;
+}
+
+.skillBox::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(100, 104, 249, 0.1), transparent);
+  transform: rotate(45deg);
+  transition: all 0.6s ease;
+}
+
+.skillBox:hover::after {
+  left: 100%;
+}
+
+/* Portfolio Card Shadow Effect */
+.portfolioBox {
+  transition: all 0.4s ease;
+}
+
+.portfolioBox:hover {
+  box-shadow: 0 20px 40px rgba(82, 88, 247, 0.2);
+  border-color: #6468f9;
+}
+
+/* Button Pulse Animation */
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(100, 104, 249, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(100, 104, 249, 0);
+  }
+}
+
+.sendBtn {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sendBtn:hover {
+  transform: translateY(-2px);
+  animation: pulse 1.5s infinite;
+}
+
+/* Input Focus Effects */
+.rowItem input:focus,
+.fulrowItem input:focus,
+.fulrowItem textarea:focus {
+  outline: none;
+  border-color: #6468f9;
+  box-shadow: 0 0 0 3px rgba(100, 104, 249, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Smooth Scroll Enhancement */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Link Hover Effects */
+.source a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.github,
+.liveLink {
+  position: relative;
+}
+
+.github::after,
+.liveLink::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #5258f7;
+  transition: width 0.3s ease;
+}
+
+.github:hover::after,
+.liveLink:hover::after {
+  width: 100%;
+}
+
+/* View Button Hover */
+.viewBtn button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.viewBtn button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(82, 88, 247, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.viewBtn button:hover::before {
+  left: 100%;
+}
+
+.viewBtn button:hover {
+  border-color: #6468f9;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(82, 88, 247, 0.3);
+}
+
+/* Tech Item Animation */
+.techItem {
+  transition: all 0.3s ease;
+}
+
+.techItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(100, 104, 249, 0.3);
+}

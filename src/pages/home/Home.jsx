@@ -13,18 +13,9 @@ function Home() {
       img: "/mixel.png",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "React",
-        },
-        {
-          id: 2,
-          name: "Restful API",
-        },
-        {
-          id: 3,
-          name: "SwiperJs",
-        },
+        { id: 1, name: "React" },
+        { id: 2, name: "Restful API" },
+        { id: 3, name: "SwiperJs" },
       ],
       github: "https://github.com/Kamoliddinmirzaboyev05/Mixel-E-Commerse-",
       live: "https://mixel-os.netlify.app/",
@@ -36,21 +27,11 @@ function Home() {
       img: "/exclusive.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "React",
-        },
-        {
-          id: 2,
-          name: "Restful API",
-        },
-        {
-          id: 3,
-          name: "SwiperJs",
-        },
+        { id: 1, name: "React" },
+        { id: 2, name: "Restful API" },
+        { id: 3, name: "SwiperJs" },
       ],
-      github:
-        "https://github.com/Kamoliddinmirzaboyev05/Exclusive-E-Commerse-Site",
+      github: "https://github.com/Kamoliddinmirzaboyev05/Exclusive-E-Commerse-Site",
       live: "https://exclusive-ecommerse-site.netlify.app/",
     },
     {
@@ -60,21 +41,11 @@ function Home() {
       img: "/discover.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "JavaScript",
-        },
-        {
-          id: 2,
-          name: "Fetch API",
-        },
-        {
-          id: 3,
-          name: "Local Storage",
-        },
+        { id: 1, name: "JavaScript" },
+        { id: 2, name: "Fetch API" },
+        { id: 3, name: "Local Storage" },
       ],
-      github:
-        "https://github.com/Kamoliddinmirzaboyev05/eCommerse-Big-JS-Project",
+      github: "https://github.com/Kamoliddinmirzaboyev05/eCommerse-Big-JS-Project",
       live: "https://ecommerse-mkm.netlify.app/",
     },
     {
@@ -84,18 +55,9 @@ function Home() {
       img: "/imagegenerator.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "JavaScript",
-        },
-        {
-          id: 2,
-          name: "Unsplash API",
-        },
-        {
-          id: 3,
-          name: "Local Storage",
-        },
+        { id: 1, name: "JavaScript" },
+        { id: 2, name: "Unsplash API" },
+        { id: 3, name: "Local Storage" },
       ],
       github: "",
       live: "",
@@ -107,18 +69,9 @@ function Home() {
       img: "/taqvim.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "HTML & CSS",
-        },
-        {
-          id: 2,
-          name: "JavaScript",
-        },
-        {
-          id: 3,
-          name: "Fetch API",
-        },
+        { id: 1, name: "HTML & CSS" },
+        { id: 2, name: "JavaScript" },
+        { id: 3, name: "Fetch API" },
       ],
       github: "https://github.com/Kamoliddinmirzaboyev05/Namoz-Vaqtlari-APP",
       live: "https://taqvim-mkm.netlify.app/",
@@ -130,18 +83,9 @@ function Home() {
       img: "/devfinder.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "React",
-        },
-        {
-          id: 2,
-          name: "Restful API",
-        },
-        {
-          id: 3,
-          name: "SwiperJs",
-        },
+        { id: 1, name: "React" },
+        { id: 2, name: "Restful API" },
+        { id: 3, name: "SwiperJs" },
       ],
       github: "",
       live: "https://devfinder-github-mkm.netlify.app/",
@@ -153,18 +97,9 @@ function Home() {
       img: "/greenshop.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "React",
-        },
-        {
-          id: 2,
-          name: "Local Storage",
-        },
-        {
-          id: 3,
-          name: "SwiperJs",
-        },
+        { id: 1, name: "React" },
+        { id: 2, name: "Local Storage" },
+        { id: 3, name: "SwiperJs" },
       ],
       github: "https://github.com/Kamoliddinmirzaboyev05/GreenShop",
       live: "https://greenshop-mkm.netlify.app/",
@@ -176,14 +111,8 @@ function Home() {
       img: "/finsweet.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "React",
-        },
-        {
-          id: 2,
-          name: "Multi Page",
-        },
+        { id: 1, name: "React" },
+        { id: 2, name: "Multi Page" },
       ],
       github: "https://github.com/Kamoliddinmirzaboyev05/Finsweet-React.git",
       live: "https://finsweet-react-mkm.vercel.app/",
@@ -195,18 +124,9 @@ function Home() {
       img: "/planto.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "React",
-        },
-        {
-          id: 2,
-          name: "Drop Shadow",
-        },
-        {
-          id: 3,
-          name: "Landing Page",
-        },
+        { id: 1, name: "React" },
+        { id: 2, name: "Drop Shadow" },
+        { id: 3, name: "Landing Page" },
       ],
       github: "https://github.com/Kamoliddinmirzaboyev05/Planto-First-React-",
       live: "https://planto-firt-react-mkm.netlify.app/",
@@ -218,18 +138,9 @@ function Home() {
       img: "/rolex.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "HTML & CSS",
-        },
-        {
-          id: 2,
-          name: "JavaScript",
-        },
-        {
-          id: 3,
-          name: "Dark - Light Mode",
-        },
+        { id: 1, name: "HTML & CSS" },
+        { id: 2, name: "JavaScript" },
+        { id: 3, name: "Dark - Light Mode" },
       ],
       github: "https://github.com/Kamoliddinmirzaboyev05/Rolex",
       live: "https://rolex-mkm.netlify.app/",
@@ -241,18 +152,9 @@ function Home() {
       img: "/contact.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "HTML & CSS",
-        },
-        {
-          id: 2,
-          name: "JavaScript",
-        },
-        {
-          id: 3,
-          name: "Local Storage",
-        },
+        { id: 1, name: "HTML & CSS" },
+        { id: 2, name: "JavaScript" },
+        { id: 3, name: "Local Storage" },
       ],
       github: "",
       live: "",
@@ -264,14 +166,8 @@ function Home() {
       img: "/todo.jpg",
       info: "A comprehensive admin dashboard for managing online stores with real-time analytics.",
       tech: [
-        {
-          id: 1,
-          name: "HTML & CSS",
-        },
-        {
-          id: 2,
-          name: "CSS Tools",
-        },
+        { id: 1, name: "HTML & CSS" },
+        { id: 2, name: "CSS Tools" },
       ],
       github: "https://github.com/Kamoliddinmirzaboyev05/To-Do-App",
       live: "https://todolist-mkm.netlify.app/",
@@ -283,6 +179,7 @@ function Home() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+
   return (
     <div className="homePage">
       <div className="hero">
@@ -338,83 +235,152 @@ function Home() {
       <main id="aboutSection">
         <section className="aboutSection">
           <div className="container">
-            <div className="condition">
+            <motion.div 
+              className="condition"
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
               <p>My way</p>
-            </div>
-            <h2 className="sectionTitle">About Me</h2>
-            <p className="infoText">
-              I’m a front-end developer working with modern technologies such as
+            </motion.div>
+            <motion.h2 
+              className="sectionTitle"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              About Me
+            </motion.h2>
+            <motion.p 
+              className="infoText"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+            >
+              I'm a front-end developer working with modern technologies such as
               React.js, Next.js, TypeScript, and other technologies.
-            </p>
-            <p className="infoText">
-              Although I’m at the beginning of my career, I have worked on and
+            </motion.p>
+            <motion.p 
+              className="infoText"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
+              Although I'm at the beginning of my career, I have worked on and
               am currently working on several projects where I prioritize
               attention to detail, clean code, and user-friendly design. I
               strive to learn something new and grow my skills and experience
               through real-world development.
-            </p>
+            </motion.p>
           </div>
         </section>
         <section id="skills" className="skillsSection">
           <div className="container">
-            <div className="condition">
+            <motion.div 
+              className="condition"
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
               <p>Skills & Expertise</p>
-            </div>
-            <h2 className="sectionTitle">My Technical Proficiency</h2>
+            </motion.div>
+            <motion.h2 
+              className="sectionTitle"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              My Technical Proficiency
+            </motion.h2>
             <div className="skillsBlock">
-              <div className="skillBox">
-                <div className="skillLogo">
-                  <img src="/html.svg" alt="" />
-                </div>
-                <h2>Foundation</h2>
-                <p>Using HTML5 and CSS3 and create magic web site design</p>
-              </div>
-              <div className="skillBox">
-                <div className="skillLogo">
-                  <img src="/tailwind-css.svg" alt="" />
-                </div>
-                <h2>Tailwind - CSS</h2>
-                <p>Using HTML5 and CSS3 and create magic web site design</p>
-              </div>
-              <div className="skillBox">
-                <div className="skillLogo">
-                  <img src="/javascript-js.svg" alt="" />
-                </div>
-                <h2>JavaScript</h2>
-                <p>Using HTML5 and CSS3 and create magic web site design</p>
-              </div>
-              <div className="skillBox">
-                <div className="skillLogo">
-                  <img src="/react.svg" alt="" />
-                </div>
-                <h2>React - JS</h2>
-                <p>Using HTML5 and CSS3 and create magic web site design</p>
-              </div>
+              {[
+                { img: "/html.svg", title: "Foundation", desc: "Using HTML5 and CSS3 and create magic web site design" },
+                { img: "/tailwind-css.svg", title: "Tailwind - CSS", desc: "Using HTML5 and CSS3 and create magic web site design" },
+                { img: "/javascript-js.svg", title: "JavaScript", desc: "Using HTML5 and CSS3 and create magic web site design" },
+                { img: "/react.svg", title: "React - JS", desc: "Using HTML5 and CSS3 and create magic web site design" }
+              ].map((skill, index) => (
+                <motion.div 
+                  className="skillBox"
+                  key={index}
+                  initial={{ opacity: 0, y: 50 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  whileHover={{ y: -10, transition: { duration: 0.3 } }}
+                >
+                  <div className="skillLogo">
+                    <img src={skill.img} alt="" />
+                  </div>
+                  <h2>{skill.title}</h2>
+                  <p>{skill.desc}</p>
+                </motion.div>
+              ))}
             </div>
           </div>
         </section>
         <section id="portfolio" className="portfolioSection">
           <div className="container">
-            <div className="condition">
+            <motion.div 
+              className="condition"
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
               <p>Recently projects & Portfolio</p>
-            </div>
-            <h2 className="sectionTitle">Recent Projects</h2>
-            <p className="projectInfo">
+            </motion.div>
+            <motion.h2 
+              className="sectionTitle"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              Recent Projects
+            </motion.h2>
+            <motion.p 
+              className="projectInfo"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+            >
               Explore my latest work showcasing my skills and expertise in
               front-end development.
-            </p>
-            <Tabs value={value} onChange={handleChange} centered>
-              <Tab label="Featured" value={"featured"} />
-              <Tab label="Static" value={"static"} />
-              <Tab label="API Integrated" value={"api"} />
-              <Tab label="Responsive Design" value={"responsive"} />
-              <Tab label="React Based" value={"react"} />
-            </Tabs>
+            </motion.p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+            >
+              <Tabs value={value} onChange={handleChange} centered>
+                <Tab label="Featured" value={"featured"} />
+                <Tab label="Static" value={"static"} />
+                <Tab label="API Integrated" value={"api"} />
+                <Tab label="Responsive Design" value={"responsive"} />
+                <Tab label="React Based" value={"react"} />
+              </Tabs>
+            </motion.div>
             <div className="porfolioBlock">
-              {portfolioDB.map((item) => {
+              {portfolioDB.map((item, index) => {
                 if (item.category === value) {
                   return (
-                    <div className="portfolioBox" key={item.id}>
+                    <motion.div 
+                      className="portfolioBox" 
+                      key={item.id}
+                      initial={{ opacity: 0, scale: 0.9 }}
+                      whileInView={{ opacity: 1, scale: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.5, delay: index * 0.1 }}
+                      whileHover={{ y: -10, transition: { duration: 0.3 } }}
+                    >
                       <div className="projectImg">
                         <img src={item.img} alt="" />
                       </div>
@@ -457,31 +423,62 @@ function Home() {
                           )}
                         </div>
                       </div>
-                    </div>
+                    </motion.div>
                   );
                 } else {
-                  return;
+                  return null;
                 }
               })}
             </div>
-            <div className="viewBtn">
+            <motion.div 
+              className="viewBtn"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
               <button>
                 View all projects <i className="fas fa-arrow-right"></i>
               </button>
-            </div>
+            </motion.div>
           </div>
         </section>
         <section id="contact" className="contactSection">
           <div className="container">
-            <div className="condition">
+            <motion.div 
+              className="condition"
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
               <p>Get In Touch</p>
-            </div>
-            <h2 className="sectionTitle">Let's Work Together</h2>
-            <p>
+            </motion.div>
+            <motion.h2 
+              className="sectionTitle"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              Let's Work Together
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+            >
               Have a project in mind or want to discuss potential opportunities?
               I'd love to hear from you.
-            </p>
-            <form className="contactForm">
+            </motion.p>
+            <motion.form 
+              className="contactForm"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
               <div className="row">
                 <div className="rowItem">
                   <label htmlFor="name">Name</label>
@@ -509,7 +506,7 @@ function Home() {
                 </div>
               </div>
               <button className="sendBtn">Send Message</button>
-            </form>
+            </motion.form>
           </div>
         </section>
       </main>

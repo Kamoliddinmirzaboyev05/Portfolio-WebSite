@@ -1,11 +1,81 @@
-# React + Vite
+# Professional Portfolio - Kamoliddin Mirzaboyev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated portfolio website built with React, Vite, and Framer Motion.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Professional animations with Framer Motion
+🎨 Modern gradient designs
+📱 Fully responsive design
+🚀 Fast performance with Vite
+💼 Portfolio showcase
+📧 Contact form
+🎯 Smooth scrolling navigation
+
+## Technologies Used
+
+- React 19
+- Vite
+- Framer Motion (animations)
+- Material-UI (tabs)
+- React Icons
+- React Router DOM
+
+## Installation
+
+```bash
+npm install
+```
+
+## Development
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Build
+
+```bash
+npm run build
+```
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```
+├── src/
+│   ├── components/
+│   │   ├── navbar/
+│   │   └── footer/
+│   ├── pages/
+│   │   └── home/
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+└── index.html
+```
+
+## Animations
+
+The portfolio includes professional animations:
+- Fade in/out effects
+- Slide animations
+- Hover effects
+- Gradient animations
+- Floating elements
+- Ripple effects
+- Smooth transitions
+
+## License
+
+© 2025 Kamoliddin Mirzaboyev. All rights reserved.
 
 ## Expanding the ESLint configuration
 

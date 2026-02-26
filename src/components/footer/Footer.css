@@ -93,3 +93,152 @@ a {
     align-items: center;
   }
 }
+
+/* Enhanced Professional Footer Animations */
+
+/* Footer Fade In */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+footer {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+/* Logo Hover Effect */
+.logo {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.logo:hover h2 {
+  transform: scale(1.05);
+  text-shadow: 0 0 20px rgba(100, 104, 249, 0.4);
+}
+
+.logo h2 {
+  transition: all 0.3s ease;
+}
+
+.logo h2 span {
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.logo:hover h2 span {
+  color: #878bff;
+  text-shadow: 0 0 25px rgba(100, 104, 249, 0.6);
+}
+
+/* Social Button Hover Effects */
+.navBtn {
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.navBtn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(100, 104, 249, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.4s ease, height 0.4s ease;
+}
+
+.navBtn:hover::before {
+  width: 100%;
+  height: 100%;
+}
+
+.navBtn:hover {
+  background-color: #222224;
+  transform: translateY(-5px) rotate(10deg);
+  box-shadow: 0 10px 20px rgba(100, 104, 249, 0.3);
+}
+
+.navBtn:hover svg {
+  color: #6468f9;
+  transform: scale(1.2);
+}
+
+.navBtn svg {
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+/* Link Underline Animation */
+.navLinks a {
+  overflow: hidden;
+}
+
+.navLinks a::after {
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.navLinks a:hover::after {
+  transform: scaleX(1);
+}
+
+/* Powered By Text Animation */
+.powered {
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.powered:hover {
+  color: #6468f9;
+  letter-spacing: 1px;
+}
+
+/* Footer Copy Fade */
+.footerCopy {
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+.logo:hover .footerCopy {
+  opacity: 1;
+  color: #fff;
+}
+
+/* Stagger Animation for Links */
+.navLinks a:nth-child(1) { animation-delay: 0.1s; }
+.navLinks a:nth-child(2) { animation-delay: 0.2s; }
+.navLinks a:nth-child(3) { animation-delay: 0.3s; }
+.navLinks a:nth-child(4) { animation-delay: 0.4s; }
+.navLinks a:nth-child(5) { animation-delay: 0.5s; }
+
+/* Gradient Border Effect */
+footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #6468f9, transparent);
+  opacity: 0.5;
+}
+
+footer {
+  position: relative;
+}
