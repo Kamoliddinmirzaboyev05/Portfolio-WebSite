@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import { Tab, Tabs } from "@mui/material";
 import { LuExternalLink, LuGithub } from "react-icons/lu";
+import { motion } from "framer-motion";
 
 function Home() {
   const portfolioDB = [
@@ -286,23 +287,52 @@ function Home() {
     <div className="homePage">
       <div className="hero">
         <div className="container">
-          <div className="condition">
+          <motion.div 
+            className="condition"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+          >
             <p>Available for work</p>
-          </div>
-          <h2 className="mainText">Hi I'm Kamoliddin Mirzaboyev</h2>
-          <h3 className="jobName">Front - End Developer</h3>
-          <p className="litlleInfo">
+          </motion.div>
+          <motion.h2 
+            className="mainText"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            Hi I'm Kamoliddin Mirzaboyev
+          </motion.h2>
+          <motion.h3 
+            className="jobName"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+          >
+            Front - End Developer
+          </motion.h3>
+          <motion.p 
+            className="litlleInfo"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+          >
             Crafting fast, beautiful, and user-first web experiences. Turning
             ideas into responsive, high-performing digital products
-          </p>
-          <div className="heroBtns">
+          </motion.p>
+          <motion.div 
+            className="heroBtns"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+          >
             <button className="heroBtn">
               Download resume <i className="fas fa-arrow-right"></i>
             </button>
             <button className="heroBtn contactBtn">
-              Contact me <i class="fa-solid fa-share"></i>
+              Contact me <i className="fa-solid fa-share"></i>
             </button>
-          </div>
+          </motion.div>
         </div>
       </div>
       <main id="aboutSection">
